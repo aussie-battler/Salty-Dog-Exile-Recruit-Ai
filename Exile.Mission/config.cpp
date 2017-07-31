@@ -29,13 +29,18 @@
 			};
 	
 	
-			class Actions 
-			{
+		class Bodyguard
+		{
+			targetType = 2;
+			target = "Land_AncientStatue_01_F";
+
+		class Actions 
+		{
 			class Body_guard: ExileAbstractAction
 			{
-			title = "Recruit Bodyguard";
-			condition = "('Exile_Item_BeefParts' in (magazines player) && !ExilePlayerInSafezone)";
-			action = "ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf";
+				title = "Recruit Bodyguard";
+				condition = "('Exile_Item_BeefParts' in (magazines player) && !ExilePlayerInSafezone)";
+				action = "ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf";
 			};
 		};
 	};
