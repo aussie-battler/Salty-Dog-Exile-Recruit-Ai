@@ -1,4 +1,4 @@
-## Salty Dog Exile: Recruit Ai
+## Salty Dog Exile: Recruit Bodyguard Ai
 
 **Description**: Recruit Ai Body guards from your XM8 & placed objects on the map. 
 
@@ -87,6 +87,8 @@ Here are the classnames: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_
 **Future Updates:**
 
 Would love the ai to attack players not in your group. Let me know if you have ideas on how to do this.
+
+Thanks to @Janski for making the cool EXAD XM8 Apps.
 
 Enjoy!!
 aussie
