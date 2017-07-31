@@ -24,19 +24,19 @@ The line should now read:  extraApps[] = {"ExAd_Unit"};
 
 4. Underneath the extraApps line add:
 
-	class ExAd_Unit
-	{
-		title = "Attack Soldier: x2 Beef Parts needed";
-		config = "ExAdClient\XM8\Apps\DeployVehicle\guard.sqf";
-		logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
-		bambiState = 0;
-		vehicleClass = "Land_AncientStatue_01_F";
-		recipe[] = {{"Exile_Item_BeefParts",1}};
-		packable = 1;
-		autoCleanUp = 1;
-		quickFunction = "['ExAd_Unit'] call ExAd_XM8_DV_fnc_spawnVehicle";
-		onLoad = "ExAdClient\XM8\Apps\DeployVehicle\guard.sqf";
-	};
+		class ExAd_Unit
+		{
+			title = "Attack Soldier: x2 Beef Parts needed";
+			config = "ExAdClient\XM8\Apps\DeployVehicle\guard.sqf";
+			logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+			bambiState = 0;
+			vehicleClass = "Land_AncientStatue_01_F";
+			recipe[] = {{"Exile_Item_BeefParts",1}};
+			packable = 1;
+			autoCleanUp = 1;
+			quickFunction = "['ExAd_Unit'] call ExAd_XM8_DV_fnc_spawnVehicle";
+			onLoad = "ExAdClient\XM8\Apps\DeployVehicle\guard.sqf";
+		};
 
 5. In config.cpp search for BeefParts and change the line to:
 
