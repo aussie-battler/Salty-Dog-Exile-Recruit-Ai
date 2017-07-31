@@ -10,7 +10,7 @@ I would like to change the ai to help kill other Exile Players.
 
 **Install: Recruit Ai from your XM8.**
 
-1. Install ExAd by @Janski http://www.exilemod.com/topic/13865-exad-package-of-virtual-garagexm8statsbarhalo-parachuteadmin-eventshackinggrindingvehicle-upgrade/
+1. Install ExAd by @Janski https://goo.gl/VBxFFa
 
 2. Drop the DeployVehicle folder into your.mission\ExAdClient\XM8\Apps\DeployVehicle
 
@@ -40,7 +40,7 @@ The line should now read:  extraApps[] = {"ExAd_Unit"};
 
 5. In config.cpp search for BeefParts and change the line to:
 
-class Exile_Item_BeefParts			{ quality = 1; price = 50000; sellPrice = 14;}; // change the buy/sell price to whatever suits.
+class Exile_Item_BeefParts    { quality = 1; price = 50000; sellPrice = 14;}; // change the buy/sell price to whatever suits.
 
 6. In config.cpp find class CfgInteractionMenus and add this below it:
 
