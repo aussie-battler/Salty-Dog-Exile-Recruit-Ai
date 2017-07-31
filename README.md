@@ -58,7 +58,7 @@ class Exile_Item_BeefParts			{ quality = 1; price = 50000; sellPrice = 14;}; // 
 				action = "ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf";
 			};
 		};
-	};
+		};
 	
 
 Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.
@@ -87,7 +87,7 @@ class Exile_Item_BeefParts	{ quality = 1; price = 50000; sellPrice = 14;}; // ch
 				action = "ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf";
 			};
 		};
-	};	
+		};	
 
 Future Updates:
 
