@@ -1,6 +1,6 @@
 ## Salty Dog Exile: Recruit Bodyguard Ai
 
-**Description**: Recruit Ai Body guards from your XM8 & placed objects on the map. 
+**Description**: Recruit Ai Body guards from your XM8 or from placed objects on the map. 
 
 How it works: Deploy a statue from your Xm8 using beef parts. Scroll on the spawned statue & choose "Recruit Bodyguard". The statue despawns & an ai will appear in your group. 
 
@@ -63,11 +63,11 @@ class Exile_Item_BeefParts    { quality = 1; price = 50000; sellPrice = 14;}; //
 
 **Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.**
 
-1. You will need to place obects (I chose a statue Land_AncientStatue_01_F) around the map and mark them on the map in your mission.sqm file.
+1. You will need to place objects (I chose a statue Land_AncientStatue_01_F) around the map and mark them on the map in your mission.sqm file.
 
-Follow this tutorial by @BetterDeadThanZed: http://www.exilemod.com/topic/5604-include-your-custom-objects-and-buildings-in-a-server-addon/
+Follow this tutorial by @BetterDeadThanZed: https://goo.gl/MZZ6ph
 
-**Wnat to make changes?**
+**Want to make changes?**
 
 1. Change the XM8 logo at:
 
@@ -88,7 +88,7 @@ Here are the classnames: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_
 
 Would love the ai to attack players not in your group. Let me know if you have ideas on how to do this.
 
-Thanks to @Janski for making the cool EXAD XM8 Apps.
+Thanks to @Janski for making the cool EXAD XM8 Apps and @BetterDeadThanZed for the custom buildings to server addons script.
 
 Enjoy!!
 aussie
