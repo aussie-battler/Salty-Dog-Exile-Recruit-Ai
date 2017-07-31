@@ -67,6 +67,21 @@ Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.
 
 Follow this tutorial by @BetterDeadThanZed: http://www.exilemod.com/topic/5604-include-your-custom-objects-and-buildings-in-a-server-addon/
 
+Wnat to make changes?
+
+1. Change the XM8 logo at:
+
+your.mission\ExAdClient\XM8\Apps\DeployVehicle\dog.paa
+
+In config.cpp under "class ExAd_Unit", change the line to suit your logo name
+
+logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+
+2. Change the soldiers at:
+
+your.mission\ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf (line 7)
+
+Here are the classnames: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST 
 
 
 Future Updates:
