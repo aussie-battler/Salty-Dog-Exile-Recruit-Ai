@@ -86,7 +86,7 @@ Here are the classnames: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_
 
 Future Updates:
 
-Would love the ai to attack players not in your group.
+Would love the ai to attack players not in your group. Let me know if you have ideas on how to do this.
 
 Enjoy!!
 aussie
