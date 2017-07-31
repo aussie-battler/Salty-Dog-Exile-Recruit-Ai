@@ -6,7 +6,7 @@
 
 **Rules:** Can't deploy the ai guard in a safe zone. Ai despawns on restarts. Ai only attacks mission ai (only tested on DMS Ai).
 
-I would like to change the ai to help kill other Exile Players.
+I would like to change the ai behaviour to help kill other Exile Players out of the players group. Let me know if you have any ideas.
 
 
 **Install: Recruit Ai from your XM8.**
@@ -64,7 +64,7 @@ class Exile_Item_BeefParts    { quality = 1; price = 50000; sellPrice = 14;}; //
 
 **Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.**
 
-1. You will need to place objects (I chose a statue Land_AncientStatue_01_F) around the map and mark them on the map in your mission.sqm file.
+1. You will need to place objects (I chose a statue Land_AncientStatue_01_F) around the map using M3Editor and mark them on the map in your mission.sqm file.
 
 Follow this tutorial by @BetterDeadThanZed: https://goo.gl/MZZ6ph
 
