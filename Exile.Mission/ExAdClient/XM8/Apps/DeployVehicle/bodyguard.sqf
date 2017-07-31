@@ -1,7 +1,7 @@
-/.. Salty Dog Exile Recruit Ai V.1 
-bu aussie 2017
-https://github.com/aussie-battler/Salty-Dog-Exile-Recruit-Ai 
-../
+/** Salty Dog Exile Recruit Ai V.1 
+**  by aussie 2017
+**  https://github.com/aussie-battler/Salty-Dog-Exile-Recruit-Ai 
+**/
 
 private ["_statue","unit","unitList"];
 	if ("Exile_Item_BeefParts" in (magazines player)) then
