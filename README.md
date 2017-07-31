@@ -1,10 +1,10 @@
 ## Salty Dog Exile: Recruit Bodyguard Ai
 
-**Description**: Recruit Ai Body guards from your XM8 or from placed objects on the map. 
+**Description:** Recruit Ai Body guards from your XM8 or from placed objects on the map. 
 
-How it works: Deploy a statue from your Xm8 using beef parts. Scroll on the spawned statue & choose "Recruit Bodyguard". The statue despawns & an ai will appear in your group. 
+**How it works:** Deploy a statue from your Xm8 using beef parts. Scroll on the spawned statue & choose "Recruit Bodyguard". The statue despawns & an ai will appear in your group. 
 
-Rules: Can't deploy the ai guard in a safe zone. Ai despawns on restarts. Ai only attacks mission ai (only tested on DMS Ai).
+**Rules:** Can't deploy the ai guard in a safe zone. Ai despawns on restarts. Ai only attacks mission ai (only tested on DMS Ai).
 I would like to change the ai to help kill other Exile Players.
 
 
