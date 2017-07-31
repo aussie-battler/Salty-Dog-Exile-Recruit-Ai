@@ -67,27 +67,7 @@ Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.
 
 Follow this tutorial by @BetterDeadThanZed: http://www.exilemod.com/topic/5604-include-your-custom-objects-and-buildings-in-a-server-addon/
 
-2. In config.cpp search for BeefParts and change the line to:
 
-class Exile_Item_BeefParts	{ quality = 1; price = 50000; sellPrice = 14;}; // change the buy/sell price to whatever suits.
-
-3. In config.cpp find class CfgInteractionMenus and add this below it:
-
-	class Bodyguard
-	{
-		targetType = 2;
-		target = "Land_AncientStatue_01_F";
-
-		class Actions 
-		{
-			class Body_guard: ExileAbstractAction
-			{
-				title = "Recruit Bodyguard";
-				condition = "('Exile_Item_BeefParts' in (magazines player) && !ExilePlayerInSafezone)";
-				action = "ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf";
-			};
-		};
-		};	
 
 Future Updates:
 
