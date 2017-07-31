@@ -1,6 +1,6 @@
 ## Salty Dog Exile: Recruit Ai
 
-Description: Recruit Ai Body guards from your XM8 & placed objects on the map. 
+**Description**: Recruit Ai Body guards from your XM8 & placed objects on the map. 
 
 How it works: Deploy a statue from your Xm8 using beef parts. Scroll on the spawned statue & choose "Recruit Bodyguard". The statue despawns & an ai will appear in your group. 
 
@@ -8,7 +8,7 @@ Rules: Can't deploy the ai guard in a safe zone. Ai despawns on restarts. Ai onl
 I would like to change the ai to help kill other Exile Players.
 
 
-Install: Recruit Ai from your XM8.
+**Install: Recruit Ai from your XM8.**
 
 1. Install ExAd by @Janski http://www.exilemod.com/topic/13865-exad-package-of-virtual-garagexm8statsbarhalo-parachuteadmin-eventshackinggrindingvehicle-upgrade/
 
@@ -61,13 +61,13 @@ class Exile_Item_BeefParts			{ quality = 1; price = 50000; sellPrice = 14;}; // 
 		};
 	
 
-Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.
+**Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.**
 
 1. You will need to place obects (I chose a statue Land_AncientStatue_01_F) around the map and mark them on the map in your mission.sqm file.
 
 Follow this tutorial by @BetterDeadThanZed: http://www.exilemod.com/topic/5604-include-your-custom-objects-and-buildings-in-a-server-addon/
 
-Wnat to make changes?
+**Wnat to make changes?**
 
 1. Change the XM8 logo at:
 
@@ -84,7 +84,7 @@ your.mission\ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf (line 7)
 Here are the classnames: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST 
 
 
-Future Updates:
+**Future Updates:**
 
 Would love the ai to attack players not in your group. Let me know if you have ideas on how to do this.
 
