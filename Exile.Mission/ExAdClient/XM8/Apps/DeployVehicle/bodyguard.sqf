@@ -1,3 +1,6 @@
+//Salty Dog Exile Recruit Ai V.1
+
+
 private ["_statue","unit","unitList"];
 	if ("Exile_Item_BeefParts" in (magazines player)) then
     {
