@@ -45,8 +45,8 @@ class Exile_Item_BeefParts    { quality = 1; price = 50000; sellPrice = 14;}; //
 
 6. In config.cpp find class CfgInteractionMenus and add this below it:
 
-	class Bodyguard
-	{
+		class Bodyguard
+		{
 		targetType = 2;
 		target = "Land_AncientStatue_01_F";
 
