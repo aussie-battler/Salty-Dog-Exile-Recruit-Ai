@@ -85,7 +85,7 @@ your.mission\ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf (line 7)
 
 Here are the classnames: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST 
 
-**Infistar:**
+**Infistar Settings (thanks to @1man):**
 Add "Craft Vehicle" to the allowedActions section:
 
 allowedActions[] = {"Break free","Use AutoLockPicker","Craft Vehicle","Hack UAV"};
