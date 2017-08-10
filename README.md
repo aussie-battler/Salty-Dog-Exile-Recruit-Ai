@@ -14,6 +14,7 @@ I would like to change the ai behaviour to help kill other Exile Players out of 
 1. Install ExAd by @Janski https://goo.gl/VBxFFa
 
 2. Drop the DeployVehicle folder into your.mission\ExAdClient\XM8\Apps\DeployVehicle
+   
    Make sure you drop the Deploy Vehicle server file in your @ExileServer/addons folder found here https://goo.gl/VopP4g
 
 3. In config.cpp search for class CFGXM8
