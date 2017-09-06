@@ -10,9 +10,9 @@
 
 1. Press ESC>Configure>Controls>Show:Command
 
-2. Change the "ACTION" of "Select all units" to the key of your choice (I used apostrophe). Press "OK" and go back to the game.
+2. Change the "ACTION" of "Select all units" to the key of your choice (I used "semicolon"). Press "OK" and go back to the game.
 
-3. Press apostrophe to select your Ai, then hit "space bar"
+3. Press "semicolon" to select your Ai, then hit "space bar"
 
 4. Move your mouse to the position you wish the Ai to hold or vehicle you wish the Ai to enter. Now hit the "space bar" :)
 
