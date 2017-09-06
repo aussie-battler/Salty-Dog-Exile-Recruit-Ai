@@ -1,0 +1,10 @@
+6.09.17 Updated the Ai skill level which can be set in Exile.Mission/ExAdClient/XM8/Apps/DeployVehicle/bodyguard.sqf
+
+Currently it is set to: 
+
+unit setskill [["aimingAccuracy",0.90],["aimingShake",0.90],["aimingSpeed",0.90],["spotDistance",0.90],["spotTime",0.90],["courage",1.00],["reloadSpeed",1.00],["commanding",1.00],["general",0.90]];
+
+To learn more about Ai skill settings head to http://www.exilemod.com/topic/13096-guide-how-to-configure-the-ai-properly/ 
+by Tobias Solem
+
+Thanks to @The Daddy for the idea.
