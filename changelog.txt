@@ -8,3 +8,5 @@ To learn more about Ai skill settings head to http://www.exilemod.com/topic/1309
 by Tobias Solem
 
 Thanks to @The Daddy for the idea.
+
+6.09.17 Udated instructions on commanding the Ai to move & stay.
