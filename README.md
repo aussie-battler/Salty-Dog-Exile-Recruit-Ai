@@ -16,6 +16,12 @@
 
 4. Move your mouse to the position you wish the Ai to hold or vehicle you wish the Ai to enter. Now hit the "space bar" :)
 
+**Command Ai to drive:**
+
+1. Exist a vehicle from a passenger seat.
+2. Order the Ai will hop in the vehicle.
+3. Get in the vehicle & mark waypoints on the map. You can also take over driving.
+
 I would like to change the ai behaviour to help kill other Exile Players out of the players group. Let me know if you have any ideas.
 
 
