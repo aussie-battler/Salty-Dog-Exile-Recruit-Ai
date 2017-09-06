@@ -1,3 +1,5 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 6.09.17 Updated the Ai skill level which can be set in Exile.Mission/ExAdClient/XM8/Apps/DeployVehicle/bodyguard.sqf
 
 Currently it is set to: 
@@ -9,4 +11,8 @@ by Tobias Solem
 
 Thanks to @The Daddy for the idea.
 
-6.09.17 Udated instructions on commanding the Ai to move & stay.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+6.09.17 Updated instructions on commanding the Ai to move & stay.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
