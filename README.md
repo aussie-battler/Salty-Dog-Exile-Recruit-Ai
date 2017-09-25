@@ -115,3 +115,6 @@ Thanks to @Janski for making the cool EXAD XM8 Apps and @BetterDeadThanZed for t
 
 Enjoy!!
 aussie
+
+
+https://raw.githubusercontent.com/aussie-battler/Salty-Dog-Exile-Recruit-Ai/master/20170906170504_1.jpg
