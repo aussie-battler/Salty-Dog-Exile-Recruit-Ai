@@ -22,6 +22,7 @@ private ["_statue","_unit","unitList"];
 	_unit setskill ["general",0.9];
 	_unit setCombatMode "RED";
 	_unit allowFleeing 0;
+	_unit setVariable ["ExileMoney",550,true];
 	["SuccessTitleAndText",["Bodyguard Deployed"]] call ExileClient_gui_toaster_addTemplateToast;
 	_statue = nearestObject [player, "Land_AncientStatue_01_F"];
 	deleteVehicle _statue;
