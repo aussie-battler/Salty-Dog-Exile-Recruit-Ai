@@ -113,7 +113,7 @@ class XM8_App04_Button: RscExileXM8AppButton1x1
     resource = "";
 };
 
-class XM8_App10_Button: RscExileXM8AppButton1x1
+class XM8_App5_Button: RscExileXM8AppButton1x1
 {
 textureNoShortcut = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
 text = "Recruit Soldier: 1x Beef Parts needed";
