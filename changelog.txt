@@ -17,7 +17,12 @@ Thanks to @The Daddy for the idea.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+12.03.18 
++ Updated for Exile 1.0.4's new XM8 apps.
++ Removed the deploy statue, it confused players.
++ Updated the script to only deploy cool ai units.
++ Ai can now be recruited in a safe zone.
 
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [logo]:https://raw.githubusercontent.com/aussie-battler/Salty-Dog-Exile-Recruit-Ai/master/20170906170504_1.jpg
