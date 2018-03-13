@@ -210,12 +210,6 @@ class XM8_App14_Button: RscExileXM8AppButton1x1
 class Exile_Item_BeefParts    { quality = 1; price = 50000; sellPrice = 14;}; // change the buy/sell price to whatever suits.
 
 
-**Optional Extra: RECRUIT AI FROM PLACED OBJECTS ON THE MAP.**
-
-1. You will need to place objects (I chose a statue Land_AncientStatue_01_F) around the map using M3Editor and mark them on the map in your mission.sqm file.
-
-Follow this tutorial by @BetterDeadThanZed: https://goo.gl/MZZ6ph
-
 **Want to make changes?**
 
 1. Change the XM8 logo at:
