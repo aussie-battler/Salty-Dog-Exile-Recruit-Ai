@@ -1,4 +1,4 @@
-/** Salty Dog Exile: Recruit Ai V.1 
+/** Salty Dog Exile: Recruit Ai V.2
 **  by aussie 2017
 **  https://github.com/aussie-battler/Salty-Dog-Exile-Recruit-Ai 
 **/
