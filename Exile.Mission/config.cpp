@@ -26,7 +26,7 @@ class CfgXM8
 	class ExAd_Unit
 	{
 		title = "Recruit Soldier: x2 Beef Parts needed";
-		logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+		logo = "ExAdClient\XM8\Apps\Unit\dog.paa";
 		bambiState = 0;
 		vehicleClass = "Land_AncientStatue_01_F";
 		recipe[] = {{"Exile_Item_BeefParts",1}};
