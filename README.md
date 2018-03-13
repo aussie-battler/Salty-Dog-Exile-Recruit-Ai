@@ -41,7 +41,7 @@ Add the following to extraApps[] = { };
 
 The line should now read:  extraApps[] = {"ExAd_Unit"};
 
-4. Underneath the extraApps line add:
+4. Underneath the extraApps line should read:
 ```
 class CfgXM8 
 {
