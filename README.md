@@ -67,6 +67,18 @@ class CfgXM8
 		appID = "App03";
 		title = "Sloth Machine";
 	};
+	
+	class ExAd_Unit
+    {
+        title = "Recruit Soldier: x2 Beef Parts needed";
+        logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+        bambiState = 0;
+        vehicleClass = "Land_AncientStatue_01_F";
+        recipe[] = {{"Exile_Item_BeefParts",1}};
+        packable = 0;
+        autoCleanUp = 0;
+        quickFunction = "['ExAd_Unit'] call ExAd_XM8_DV_fnc_spawnVehicle";
+    };
 };
 /*
 	XM8 Extra apps, the Exile way of doing it
