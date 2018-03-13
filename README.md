@@ -71,7 +71,7 @@ class CfgXM8
 	class ExAd_Unit
     {
         title = "Recruit Soldier: x2 Beef Parts needed";
-        logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+        logo = "ExAdClient\XM8\Apps\Unit\dog.paa";
         bambiState = 0;
         vehicleClass = "Land_AncientStatue_01_F";
         recipe[] = {{"Exile_Item_BeefParts",1}};
@@ -127,9 +127,9 @@ class XM8_App04_Button: RscExileXM8AppButton1x1
 
 class XM8_App5_Button: RscExileXM8AppButton1x1
 {
-textureNoShortcut = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+textureNoShortcut = "ExAdClient\XM8\Apps\Unit\dog.paa";
 text = "Recruit Soldier: 1x Beef Parts needed";
-onButtonClick = "ExileClientXM8CurrentSlide = 'apps';closeDialog 0;[] execVM 'ExAdClient\XM8\Apps\DeployVehicle\bodyguard.sqf'";
+onButtonClick = "ExileClientXM8CurrentSlide = 'apps';closeDialog 0;[] execVM 'ExAdClient\XM8\Apps\Unit\bodyguard.sqf'";
 resource = "";
 };
 
