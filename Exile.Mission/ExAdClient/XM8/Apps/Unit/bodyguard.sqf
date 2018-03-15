@@ -1,14 +1,23 @@
-/** Salty Dog Exile: Recruit Ai V.1 
+/** Salty Dog Exile: Recruit Ai V.2
 **  by aussie 2017
 **  https://github.com/aussie-battler/Salty-Dog-Exile-Recruit-Ai 
+
+	Thanks to geekm0nkey for updating the following:
+ +  Fixed toast message not displaying when you didn't have beef parts.. Hint: ( }; else { wont work.. take out the ; )
+ +  Added delay during animation so the solider doesn't show till after.. Just my personal preference.
+ +  No spawn in safezone.
 **/
 
 private ["_statue","_unit","unitList"];
+    if(ExilePlayerInSafezone) exitWith {
+        ["ErrorTitleAndText", ["Deployment Failed!", "You can't deploy soldier in trader!"]] call ExileClient_gui_toaster_addTemplateToast;
+    };
 	if ("Exile_Item_BeefParts" in (magazines player)) then
     {
 	player removeItem "Exile_Item_BeefParts";
 	disableUserInput true;
 	player playMove "AinvPknlMstpSnonWnonDr_medic3"; 
+	uisleep 10;
 	unitList = ["I_Soldier_AT_F","I_ghillie_lsh_F","I_ghillie_sard_F","I_G_Sharpshooter_F"];
 	_unit = group player createUnit [unitList select (round(random ((count unitList) - 1))), getPos player, [], 0, "FORM"];
 	_unit setskill ["aimingAccuracy",0.9];
@@ -27,9 +36,9 @@ private ["_statue","_unit","unitList"];
 	_statue = nearestObject [player, "Land_AncientStatue_01_F"];
 	deleteVehicle _statue;
 	disableUserInput false;
-	}; 
+	}
 	else
 	{
-    ["ErrorTitleAndText", ["You need Beef Parts..."]] call ExileClient_gui_toaster_addTemplateToast;
+       ["ErrorTitleAndText", ["Deployment Failed!", "You need beef parts..."]] call ExileClient_gui_toaster_addTemplateToast;
 	}; 
 }; 
