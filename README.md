@@ -209,6 +209,28 @@ class XM8_App14_Button: RscExileXM8AppButton1x1
 
 class Exile_Item_BeefParts    { quality = 1; price = 50000; sellPrice = 14;}; // change the buy/sell price to whatever suits.
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+UPDATE 21.11.18:
+
+In your description.ext turn on the commanding menu (change to 1):
+```
+showHUD[] =
+{
+    1,   // Scripted HUD (same as showHUD command)
+    1,   // Vehicle + soldier info
+    1,   // Vehicle radar
+    1,   // Vehicle compass
+    1,   // Tank direction indicator
+    1,  // Commanding menu
+    0,  // Group Bar
+    1,   // HUD Weapon Cursors
+    1   // Squad Radar
+};
+```
+ 
+Then players can see the command ai menu. 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 **Want to make changes?**
 
